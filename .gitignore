@@ -1,0 +1,6 @@
+.metals/
+.vscode/
+.DS_Store
+functional-programming/.bsp
+functional-programming/project
+functional-programming/target

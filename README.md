@@ -15,3 +15,8 @@ All samples can be started by calling the `scala` command..
 ## Getting Started with Functional Programming concepts
 
 `cd functional-programming`
+
+This app is using [sbt](https://www.scala-sbt.org/) to manage the build lifecycle.
+To start the CLI, run `sbt`. 
+To start the app, enter `run`.
+There are (far) more commands available, see the [sbt documentation](https://www.scala-sbt.org/1.x/docs/Command-Line-Reference.html) for more information.
