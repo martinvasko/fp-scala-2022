@@ -4,3 +4,7 @@
 functional-programming/.bsp
 functional-programming/project
 functional-programming/target
+streams/.bsp
+streams/project
+streams/target
+streams/factorials.txt
