@@ -12,6 +12,10 @@ trait C extends A {
 
 class D extends B with C
 
-val d = new D
-println(d.message)
-println(d.loudMessage)
+object MainClasses {
+  def main(args: Array[String]): Unit = {
+    val d = new D
+    println(d.message) // I'm an instance of class B
+    println(d.loudMessage) // I'M AN INSTANCE OF CLASS B
+  }
+}

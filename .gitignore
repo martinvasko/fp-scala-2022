@@ -1,6 +1,9 @@
 .metals/
 .vscode/
 .DS_Store
+getting-started/.bsp
+getting-started/project
+getting-started/target
 functional-programming/.bsp
 functional-programming/project
 functional-programming/target

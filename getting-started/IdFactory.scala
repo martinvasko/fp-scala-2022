@@ -6,7 +6,11 @@ object IdFactory {
   }
 }
 
-val newId: Int = IdFactory.create()
-println(newId) 
-val newerId: Int = IdFactory.create()
-println(newerId)
+object MainIdFactory {
+  def main(args: Array[String]): Unit = {
+    val newId: Int = IdFactory.create()
+    println(newId)
+    val newerId: Int = IdFactory.create()
+    println(newerId)
+  }
+}
